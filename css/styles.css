@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	/*max-width: 800px;*/
+	margin: auto;
+}
+
+.card img {
+    height: 280px;
+  }
