@@ -88,6 +88,7 @@ a {
 	display: block;
 	transition: all 1s;
 }
+
 .commentClicked {
 	min-height: 0px;
 	border: 1px solid #eee;
@@ -132,13 +133,13 @@ button.primaryContained:hover {
 .go-top-container {
 	position: fixed;
 	bottom: 2rem;
-	right: 2rem;
+	right: 3rem;
 	width: 3rem;
 	height: 2rem;
 	z-index: -1;
-  }
+}
   
-  .go-top-button {
+.go-top-button {
 	width: 5px;
 	height: 5px;
 	border-radius: 200%;
@@ -151,9 +152,9 @@ button.primaryContained:hover {
 	z-index: -1;
 	display: block;
 	background-color: rgba(128, 128, 128, 0.488);
-  }
+}
   
-  .go-top-button i {
+.go-top-button i {
 	position: absolute;
 	font-size: 1.7rem;
 	top: 48%;
@@ -161,39 +162,38 @@ button.primaryContained:hover {
 	transform: translate(-50%, -50%) scale(0);
 	color: red;
 	transition: 0.2s;
-  }
+}
   
-  .show {
+.show {
 	z-index: 10;
-  }
+}
   
-  .show .go-top-button {
+.show .go-top-button {
 	animation: popup 0.3s ease-in-out;
-	width: 6.6rem;
-	height: 6.6rem;
+	width: 5.6rem;
+	height: 5.6rem;
 	z-index: 11;
-  }
+}
   
-  .show i {
+.show i {
 	transform: translate(-50%, -50%) scale(1);
-  }
-  
-  @keyframes popup {
+}
+
+
+@keyframes popup {
 	0% {
 		width: 0;
 		height: 0;
 	}
 	50% {
-		width: 8rem;
-		height: 8rem;
+		width: 6rem;
+		height: 6rem;
 	}
 	100% {
 		width: 6.6rem;
 		height: 6.6rem;
 	}
-  }
-  
-
+}
 
 /*=======================================================================================================
 =                                        Medias queries                                                  =
