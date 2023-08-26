@@ -74,6 +74,10 @@ a {
 	border-radius: 20px;
   }
 
+.card-title {
+	text-align: center!important;
+}   
+
 /*=============== Comentarios ================*/
 /* pagina de creacion de la seccion de comentarios= https://codeconvey.com/comment-box-in-html-and-css/*/
 .container-comm {
