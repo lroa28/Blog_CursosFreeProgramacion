@@ -43,7 +43,6 @@ a {
 		  transition: all 1s ease-out;
 		  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
 		  top: -4px;
-		  border: 1px solid #cccccc;
 		  background-color: rgba(128, 128, 128, 0.467);
 		}
 	  
@@ -64,6 +63,7 @@ a {
 	  
 	  .card:hover:before {
 		  transform: scale(2.15);
+		  background: red;
 		}
 	  
 
