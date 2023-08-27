@@ -1,9 +1,5 @@
 # Blog de Noticias para iniciarse en Tecnología
 
-Primeros pasos en Tecnología para todos.
+Primeros pasos en Tecnología para todos con las últimas noticias en la Web.
 
-Blog Cards desarrollado con [Bootstraps 5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-
-Últimas noticias en la web
-
-This site was built using [GitHub Pages](https://pages.github.com/).
+Blog Cards was built using [Bootstraps 5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/) and [GitHub Pages](https://pages.github.com/)
